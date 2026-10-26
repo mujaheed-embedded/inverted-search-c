@@ -10,7 +10,7 @@ Instead of scanning every file for each search, the program builds an inverted i
 
 * **Create Database:** Build an index of words from multiple text files.
 * **Search Database:** Search for a word and identify the files containing it.
-* **Display Database:** Display the indexed words and their associated file information.
+* **Display Database:** Display indexed words and their associated file information.
 * **Save Database:** Store the database in a file for later use.
 * **Update Database:** Update the database using a saved database file.
 * **File Handling:** Read and process multiple text files.
@@ -57,16 +57,22 @@ Compile the project using:
 make
 ```
 
-If the Makefile does not provide a default build target, follow the target names defined in your Makefile.
+The Makefile compiles the source files and generates the executable `Inverter_search.exe`.
 
 ## ▶️ Execution
 
-Run the generated executable according to the target and executable name defined in your Makefile.
-
-For example, if the executable is named `inverted_search`:
+Run the executable using:
 
 ```bash
-./inverted_search
+./Inverter_search.exe
+```
+
+## 🧹 Clean Build Files
+
+To remove the generated object files and executable, run:
+
+```bash
+make clean
 ```
 
 ## 🧠 Concepts Practiced
@@ -81,7 +87,7 @@ For example, if the executable is named `inverted_search`:
 
 ## 🎯 Objective
 
-To strengthen practical knowledge of C programming and Data Structures & Algorithms by implementing a searchable word index across multiple text files.
+To strengthen practical knowledge of C programming and Data Structures and Algorithms by implementing a searchable word index across multiple text files.
 
 ## 👨‍💻 Author
 
